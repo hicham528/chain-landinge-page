@@ -1,0 +1,55 @@
+function padStart(value){
+  return String(value).padStart(2,"0")
+}=>===============duscription================
+String(value): يحول القيمة المدخلة إلى سلسلة نصية. هذا مهم لأن طريقة padStart هي طريقة خاصة بالسلاسل النصية.
+padStart(2, “0”): تضيف أصفارًا في بداية السلسلة النصية حتى يصل طول السلسلة إلى حرفين.
+هذه الدالة مفيدة بشكل خاص لتنسيق الأرقام، مثل التأكد من عرض الأرقام ذات الرقم الواحد مع صفر في البداية. إذا كان لديك أي أسئلة أخرى أو تحتاج إلى مزيد من المساعدة، لا تتردد في السؤال!
+
+
+
+setInterval()=>for creat sumthing and working by time.
+clearInterval()=>for stoped the setInterval().
+preventDefault()==>for anulation the code or stope................
+ new Date()==>for add the time of the website............
+ for this parameters is have a lot value ======> get+=> [Hours();Minutes();Second();Day();Month();FullYear()]
+===window.location.hash.substring()==>it's a methode for serching about # for client ==============
+
+
+
+ for(const[idx,item] of Object.entries[item])=>==============
+الشرح:
+Object.entries(obj): هذه الطريقة تعيد مصفوفة تحتوي على أزواج [المفتاح، القيمة] الخاصة بالكائن.
+for (const [idx, item] of Object.entries(obj)): هذه الحلقة تتكرر على كل زوج [مفتاح، قيمة] في الكائن.
+
+
+
+=>===============what is API
+واجهة برمجة التطبيقات (API) هي مجموعة من القواعد والبروتوكولات التي تسمح لتطبيقات البرمجيات بالتواصل مع بعضها البعض وتبادل البيانات والوظائف. يمكن اعتبار API كجسر يربط بين التطبيقات المختلفة، مما يسهل عملية التكامل بينها.
+
+كيف تعمل API؟
+تعمل API من خلال إرسال طلبات واستقبال استجابات بين 
+العميل (التطبيق الذي يرسل الطلب) والخادم (التطبيق الذي يرسل الاستجابة). على سبيل المثال، 
+عند شراء منتج عبر الإنترنت واختيار الدفع باستخدام نظام دفع خارجي مثل PayPal، يتم إرسال طلب
+ API لاسترداد معلومات الدفع. يتم معالجة هذا الطلب وإرسال الاستجابة من نظام الدفع إلى موقع الويب الأصلي عبر API12.
+
+أنواع API:
+واجهات برمجة التطبيقات العامة (Open APIs): متاحة للجميع وتستخدم بشكل شائع لتكامل التطبيقات العامة.
+واجهات برمجة التطبيقات الداخلية (Internal APIs): تستخدم داخل المؤسسات لتسهيل التواصل بين الأنظمة الداخلية.
+واجهات برمجة التطبيقات الشريكة (Partner APIs): تستخدم لتسهيل التكامل بين شركاء الأعمال.
+واجهات برمجة التطبيقات المركبة (Composite APIs): تجمع بين عدة طلبات API في طلب واحد لتبسيط العمليات المعقدة2.
+فوائد استخدام API:
+تسريع عملية التطوير: يمكن للمطورين استخدام وظائف وخدمات موجودة بدلاً من تطويرها من الصفر.
+تحسين الأمان: يمكن مشاركة البيانات الضرورية فقط، مما يحافظ على أمان الأنظمة الداخلية.
+التكامل السهل: تسهل API التكامل بين التطبيقات المختلفة، مما يعزز من كفاءة العمل
+
+
+>==================.reting in javascript================
+A rating system in JavaScript allows users to rate items, such as products or services, typically on a scale (like 1 to 5 stars).
+ This system can dynamically update the display based on user interactions and store the ratings for future reference.
+
+
+=============.select()=>for select the text after event;
+=============.execCommand("copy")=>for copy the text;
+
+
+====================nextElementSibling=>next brother in the code;

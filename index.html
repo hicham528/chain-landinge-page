@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Image Lightbox | CodingNepal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="" />
+      <nav class="navbare">
+        <i class="fa-solid fa-xmark" id="close_nav"></i>
+        <ul>
+          <li><a href="#body_section">Home</a></li>
+          <li><a href="#Services_section">Services</a></li>
+          <li><a href="#about_section">About</a></li>
+          <li><a href="#Pricing_section">Pricing</a></li>
+          <li><a href="#footer_section">Newsletter</a></li>
+        </ul>
+        <button id="open_form">
+          <i class="fa-solid fa-right-to-bracket"></i> sign in now
+        </button>
+      </nav>
+      <i class="fa-solid fa-bars" id="open_nav"></i>
+    </header>
+    <div class="inscription">
+      <div class="form_inscription">
+        <i class="fa-solid fa-xmark" id="close_form"></i>
+        <div class="only_methode">
+          <i class="fa-brands fa-facebook"></i>
+          <h1>connect with facebook</h1>
+        </div>
+        <div class="only_methode">
+          <i class="fa-brands fa-google"></i>
+          <h1>connect with google</h1>
+        </div>
+        <span>or use your email adress</span>
+        <div class="inscription_btn">
+          <button class="open_logine_form">login</button>
+          <button class="open_sign_up_form">sign up</button>
+        </div>
+      </div>
+      <div class="logine_form">
+        <div class="header_logine">
+          <h1>logine</h1>
+          <i class="fa-solid fa-x" id="close_logine_form"></i>
+        </div>
+        <div class="email_form">
+          <h2>email or username</h2>
+          <input type="text" placeholder="enter your email or usernam">
+        </div>
+        <div class="email_form">
+          <h2>passworde</h2>
+          <input type="password" placeholder="enter your password">
+        </div>
+        <div class="check_form">
+ 
+          <div class="checkbox-wrapper-46">
+            <input type="checkbox" id="cbx-46" class="inp-cbx" />
+            <label for="cbx-46" class="cbx"
+              ><span>
+                <svg viewBox="0 0 12 10" height="10px" width="12px">
+                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg></span
+              ><span>Remember me on this computer</span>
+            </label>
+          </div>
+        </div>
+        <div class="btn_form">
+          <button class="back_btn_1"><i class="fa-solid fa-backward"></i> back</button>
+          <button>logine</button>
+        </div>
+        <a href="#" class="open_forot_form">forgot password??</a>
+      </div>
+      <div class="logine_form_2">
+        <div class="header_logine">
+          <h1>Register</h1>
+          <i class="fa-solid fa-x" id="close_sign_in_form"></i>
+        </div>
+        <div class="email_form">
+          <h2>full name</h2>
+          <input type="text" placeholder="enter your full name">
+        </div>
+        <div class="email_form">
+          <h2>email</h2>
+          <input type="text" placeholder="enter your email">
+        </div>
+        <div class="email_form">
+          <h2>passworde</h2>
+          <input type="password" placeholder="enter your password">
+        </div>
+        <div class="check_form">
+ 
+          <div class="checkbox-wrapper-46">
+            <input type="checkbox" id="cbx-46" class="inp-cbx" />
+            <label for="cbx-46" class="cbx"
+              ><span>
+                <svg viewBox="0 0 12 10" height="10px" width="12px">
+                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg></span
+              ><span>Send me occasional email updates</span>
+            </label>
+          </div>
+        </div>
+        <div class="btn_form">
+          <button class="back_btn_2"><i class="fa-solid fa-backward"></i> back</button>
+          <button>register</button>
+        </div>
+      </div>
+      <div class="forgot_form_2">
+        <div class="header_logine">
+          <h1>frogot password:</h1>
+          <i class="fa-solid fa-x" id="close_forgot_form"></i>
+        </div>
+   
+        <div class="email_form">
+          <h2>email</h2>
+          <input type="text" placeholder="enter your email">
+        </div>
+   
+        <div class="check_form">
+ 
+          <div class="checkbox-wrapper-46">
+            <input type="checkbox" id="cbx-46" class="inp-cbx" />
+            <label for="cbx-46" class="cbx"
+              ><span>
+                <svg viewBox="0 0 12 10" height="10px" width="12px">
+                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg></span
+              ><span>send me a new passworde!!!</span>
+            </label>
+          </div>
+        </div>
+        <div class="btn_form">
+          <button class="back_btn_3"><i class="fa-solid fa-backward"></i> back</button>
+          <button>Send me</button>
+        </div>
+      </div>
+    </div>
+    <section id="body_section">
+      <div class="text_body">
+        <h1>Get The Latest App From App Stores</h1>
+        <p>
+          Chain App Dev is an app landing page HTML5 template based on Bootstrap
+          v5.1.3 CSS layout provided by TemplateMo, a great website to download
+          free CSS templates.
+        </p>
+        <div class="btn_container">
+          <button>free quote <i class="fa-brands fa-apple"></i></button>
+          <button>free quote <i class="fa-brands fa-google-play"></i></button>
+        </div>
+      </div>
+      <div class="image_body">
+        <img src="images/slider-dec.png" alt="" />
+      </div>
+    </section>
+    <section id="Services_section">
+      <div class="header_services">
+        <h1>Amazing <span> Services & Features</span> for you</h1>
+        <h3>--</h3>
+        <p>
+          If you need the greatest collection of HTML templates for your
+          business, please visit <span>TooCSS</span> Blog. If you need to have a
+          contact form PHP script, go to <span>our contact page</span> for more
+          information.
+        </p>
+      </div>
+      <div class="body_services">
+        <div class="only_service">
+          <img src="images/service-icon-01.png" alt="" />
+          <h1>App Maintenance</h1>
+          <p>
+            You are not allowed to redistribute this template ZIP file on any
+            other website.
+          </p>
+          <a href="#">Read more <i class="fa-solid fa-right-long"></i></a>
+        </div>
+        <div class="only_service">
+          <img src="images/service-icon-02.png" alt="" />
+          <h1>Rocket Speed of App</h1>
+          <p>
+            You are allowed to use the Chain App Dev HTML template. Feel free to
+            modify or edit this layout.
+          </p>
+          <a href="#">Read more <i class="fa-solid fa-right-long"></i></a>
+        </div>
+        <div class="only_service">
+          <img src="images/service-icon-03.png" alt="" />
+          <h1>Multi Workflow Idea</h1>
+          <p>
+            If this template is beneficial for your work, please support us
+            <span>a little via PayPal</span>. Thank you.
+          </p>
+          <a href="#">Read more <i class="fa-solid fa-right-long"></i></a>
+        </div>
+        <div class="only_service">
+          <img src="images/service-icon-04.png" alt="" />
+          <h1>24/7 Help & Support</h1>
+          <p>
+            Lorem ipsum dolor consectetur adipiscing elit sedder williamsburg
+            photo booth quinoa and fashion axe.
+          </p>
+          <a href="#">Read more <i class="fa-solid fa-right-long"></i></a>
+        </div>
+      </div>
+    </section>
+    <section id="about_section">
+      <div class="text_about">
+        <h1>About <span> What We Do</span> & Who We Are</h1>
+        <h3>--</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod
+          tempor incididunt ut labore et dolore magna.
+        </p>
+        <div class="details_about">
+          <div class="only_details">
+            <h2>Maintance Problems</h2>
+            <p>Lorem Ipsum Text</p>
+          </div>
+          <div class="only_details">
+            <h2>24/7 Support & Help</h2>
+            <p>Lorem Ipsum Text</p>
+          </div>
+          <div class="only_details">
+            <h2>Fixing Issues About</h2>
+            <p>Lorem Ipsum Text</p>
+          </div>
+          <div class="only_details">
+            <h2>Co. Development</h2>
+            <p>Lorem Ipsum Text</p>
+          </div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod
+          tempor idunte ut labore et dolore adipiscing magna.
+        </p>
+        <button>start 14-day free trial</button>
+        <p>*No Credit Card Required</p>
+      </div>
+      <div class="image_about">
+        <img src="images/about-right-dec.png" alt="" />
+      </div>
+    </section>
+    <section id="comment_section">
+      <h1>Check What <span>The Clients Say</span> About Our App Dev</h1>
+      <h3>--</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod
+        tempor incididunt ut labore et dolore magna.
+      </p>
+      <div class="comment_container">
+        <div class="text_container">
+          <div class="only_content active-animation">
+            <div class="onfo">
+              <h2 class="name_user active_name_user">David Martino Co</h2>
+              <h4>30 November 2021</h4>
+            </div>
+            <h4 class="category">Financial Apps</h4>
+            <div class="starts active">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>4.8</span>
+            </div>
+          </div>
+          <div class="only_content">
+            <div class="onfo">
+              <h2 class="name_user">Jake Harris Nyo</h2>
+              <h4>29 November 2021</h4>
+            </div>
+            <h4 class="category">Digital Business</h4>
+            <div class="starts">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>4.5</span>
+            </div>
+          </div>
+          <div class="only_content">
+            <div class="onfo">
+              <h2 class="name_user">May Catherina</h2>
+              <h4>27 November 2021</h4>
+            </div>
+            <h4 class="category">Business & Economics</h4>
+            <div class="starts">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>4.7</span>
+            </div>
+          </div>
+          <div class="only_content">
+            <div class="onfo">
+              <h2 class="name_user">Random User</h2>
+              <h4>24 November 2021</h4>
+            </div>
+            <h4 class="category">New App Ecosystem</h4>
+            <div class="starts">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>3.9</span>
+            </div>
+          </div>
+          <div class="only_content">
+            <div class="onfo">
+              <h2 class="name_user">Mark Amber Do</h2>
+              <h4>21 November 2021</h4>
+            </div>
+            <h4 class="category">Web Development</h4>
+            <div class="starts">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>4.3</span>
+            </div>
+          </div>
+        </div>
+        <div class="show_comment">
+          <div class="comment_forme">
+            “Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do
+            eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
+            lorem ipsum dolor sit amet, consectetur picing elit massive big
+            blasta.”
+          </div>
+          <div class="details_user">
+            <img src="images/client-image.jpg" alt="" />
+            <div class="info_user">
+              <h4 class="name">David Martino</h4>
+              <h5 class="work">CEO of David Company</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Pricing_section">
+      <h1>We Have The Best Pre-Order <span>Prices</span> You Can Get</h1>
+      <h3>--</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod
+        tempor incididunt ut labore et dolore magna.
+      </p>
+      <div class="pricing_container">
+        <div class="only_pricing">
+          <div class="header_pricing">
+            <span class="price">12$</span>
+            <h2>standard plan app</h2>
+            <img src="images/pricing-table-01.png" alt="" />
+          </div>
+          <div class="body_pricing">
+            <h4>Lorem Ipsum Dolores</h4>
+            <h4>20 TB of Storage</h4>
+            <span>Life-time Support</span>
+            <span>Premium Add-Ons</span>
+            <span>Fastest Network</span>
+            <span>More Options</span>
+            <button>purchase this plan now</button>
+          </div>
+        </div>
+        <div class="only_pricing">
+          <div class="header_pricing">
+            <span class="price">25$</span>
+            <h2>business plan app</h2>
+            <img src="images/pricing-table-01.png" alt="" />
+          </div>
+          <div class="body_pricing">
+            <h4>Lorem Ipsum Dolores</h4>
+            <h4>50 TB of Storage</h4>
+            <h4>Life-time Support</h4>
+            <h4>Premium Add-Ons</h4>
+            <span>Fastest Network</span>
+            <span>More Options</span>
+            <button>purchase this plan now</button>
+          </div>
+        </div>
+        <div class="only_pricing">
+          <div class="header_pricing">
+            <span class="price">25$</span>
+            <h2>business plan app</h2>
+            <img src="images/pricing-table-01.png" alt="" />
+          </div>
+          <div class="body_pricing">
+            <h4>Lorem Ipsum Dolores</h4>
+            <h4>120 TB of Storage</h4>
+            <h4>Life-time Support</h4>
+            <h4>Premium Add-Ons</h4>
+            <h4>Fastest Network</h4>
+            <h4>More Options</h4>
+            <button>purchase this plan now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer_section">
+      <h1>oin our mailing list to receive the news & latest trends</h1>
+      <div class="email_container">
+        <input type="email" placeholder="email adress..." />
+        <button>subscrib now</button>
+      </div>
+      <div class="details_footer">
+        <div class="contact_footer">
+          <h4>Contact Us</h4>
+          <span>zrizer,taounate,morroco</span>
+          <span>06-75-46-80-72</span>
+          <span>hichamcodes71@gmail.com</span>
+        </div>
+        <div class="about_footer">
+          <h4>About Us</h4>
+          <ul>
+            <li><a href="#body_section">Home</a></li>
+            <li><a href="#Services_section">Services</a></li>
+            <li><a href="#about_section">About</a></li>
+            <li><a href="#Pricing_section">Pricing</a></li>
+            <li><a href="#footer_section">Newsletter</a></li>
+            <li><a href="#">testimonilas</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </div>
+        <div class="about_footer">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">free apps</a></li>
+            <li><a href="#">app div team</a></li>
+            <li><a href="#">App engine</a></li>
+            <li><a href="#">digital web</a></li>
+            <li><a href="#">programming</a></li>
+            <li><a href="#">normale apps</a></li>
+            <li><a href="#">Development</a></li>
+            <li><a href="#">app news</a></li>
+          </ul>
+        </div>
+        <div class="about_footer">
+          <h4>About Our Company</h4>
+          <img src="images/white-logo.png" alt="logo" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore.
+          </p>
+        </div>
+      </div>
+      <p>Copyright © 21/10/2024 by HICHAM DRAKECH. All Rights Reserved.
+        Design: TemplateMo</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
